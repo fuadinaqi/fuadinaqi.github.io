@@ -1,0 +1,186 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F2F2F2;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+  font-family: cursive;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 2.5;
+  font-family: sans-serif;
+  word-spacing: 0.1;
+  letter-spacing: 0.2em;
+  font-variant: small-caps;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+p {
+  margin: 16px 0;
+  font-family: Helvetica;
+}
+
+#logo{
+    height: 30px;
+}
+
+#bestquotes,
+#yourquotes,
+#about {
+  padding-top: 77px;
+  margin-top: -77px;
+}
+
+#headerhome{
+  display: block;
+  color: #4A4A4A;
+  padding: 30px 0px;
+}
+
+#tagline{
+    color: #feffc2;
+}
+
+.pagelink:hover{
+  background-color: #e5dabd;
+  color: white;
+}
+
+.pagelink:active{
+  background-color: white;
+}
+
+/* Header */
+
+.header {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.25;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-weight: 900;
+}
+
+.header li {
+  display: inline-block;
+}
+
+.header a {
+  display: block;
+  color: #4A4A4A;
+  padding: 30px 120px;
+}
+
+
+/* Banner */
+
+.banner {
+  background-image: url(assets/pictures/background1.png);
+  background-size: cover;
+  background-repeat: round;
+  padding: 100px 0;
+  margin-top: 77px;
+  text-align: center;
+  height: 400px;
+}
+
+.menu {
+  padding: 20px;
+  margin: 0px 0;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.profilpicture{
+  border: 2px solid grey;
+  border-radius: 150px;
+  height:90px;
+  float: left;
+  margin: 20px;
+}
+
+.quotesprofil{
+  padding-left:100px;
+  margin-left: 20px;
+  padding-top: 20px;
+  color: white;
+}
+
+.quotesprofil p{
+  font-style: italic;
+}
+
+.signup{
+  background-image: url(assets/pictures/background2.png);
+}
+
+.signup h3{
+  color: black;
+  letter-spacing: normal;
+  margin: 0px 0px;
+  text-align: center;
+}
+
+.form1{
+  text-align: center;
+}
+
+.form2{
+  text-align: center;
+}
+.color1{
+  background-color: #141212;
+  height:150px;
+}
+
+.color2{
+  background-color: #352926;
+  height:150px;
+}
+
+.color3{
+  background-color: #4C352D;
+  height:150px;
+}
+
+.color4{
+  background-color: #683C2C;
+  height:150px;
+}
+
+.color5{
+  background-color: #9EB599;
+  height:150px;
+}
+
+.color6{
+  background-color: #67b1ad;
+  height:150px;
+}
